@@ -1,0 +1,147 @@
+body{
+    background: #222020;
+    padding: 0;
+    margin: 0;
+}
+
+#videoPanel{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10px;
+}
+
+#videoPanel video{
+    width: 100%;
+}
+
+#videoDropBox{
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+#dropBoxHeader{
+    color: #ffd700;
+    padding: 5px;
+}
+
+#onlyStar{
+    margin-left: 10px;
+    display: none;
+}
+
+#firstElementHeader{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: none;
+    font-size: 12px;
+}
+
+#dropBox{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dropBox div{
+    width:100%;
+    display: block;
+}
+
+#dropBox .starMenuRow{
+    cursor: pointer;
+}
+
+#dropBox .starMenuText{
+    font-size: 13px;
+    vertical-align: middle;
+    color: white;
+}
+
+#dropBox .starMenuImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#dropBox .fa-arrow-right{
+    color: #FF7F50;
+    vertical-align: middle;
+}
+
+#dropBox .floatMenu{
+    position: absolute;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#dropBox .floatMenu:before{
+    content:"\A";
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent rgba(0, 0, 0, 0.4) transparent transparent;
+    position: absolute;
+    left: -8px;
+    top: 13px;
+}
+
+#dropBox .facebookButtom{
+    position: absolute;
+    right: 30px;
+    bottom: -12px;
+
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#dropBox .twitterButton{
+    position: absolute;
+    right:5px;
+    bottom: -12px;
+
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#dropBox .facebookButtom:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+#dropBox .twitterButton:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+#dropBox .floatMenuTextDiv{
+    float: left;
+    width: 55%;
+    padding: 3%;
+}
+
+#dropBox .floatMenuMainText{
+    float: left;
+    color: white;
+}
+
+#dropBox .floatMenuMainHeader{
+    float: left;
+    color: #ffd700;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+    #videoPanel{
+        width: 100%;
+    }
+
+
+}

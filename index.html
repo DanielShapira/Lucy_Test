@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lucy</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="indexJS.js"></script>
+
+    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id = "videoPanel">
+        <div id="videoDropBox">
+            <div id="dropBoxHeader">
+                <i id ="onlyStar" class="fa fa-star" aria-hidden="true">
+                    <span id = "firstElementHeader">
+                        SCENE INFO
+                    </span>
+                </i>
+            </div>
+
+            <div id="dropBox" ></div>
+        </div>
+
+        <video id="videoPlayer" controls autoplay>
+            <source src="Videos/Funny%20rubbit's.mp4" type="video/mp4">
+            <source src="Videos/Funny%20rubbit's.ogg" type="video/ogg">
+            <iframe src="https://www.youtube.com/embed/lTTajzrSkCw" allowfullscreen> </iframe>
+        </video>
+    </div>
+</body>
+</html>
